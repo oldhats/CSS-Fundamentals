@@ -38,6 +38,10 @@ h2 {
   font-size: 42px;
   font-weight: 300;
   margin-top: 0;
+  border-top: solid 1px #c4c4c4;
+  border-bottom: solid 1px #c4c4c4;
+  padding: 25px 0;
+  margin-bottom: 25px;
 }
 
 h3 {
@@ -66,8 +70,8 @@ body {
 }
 
 .bold {
-  /* font-size: 80px; */
   font-weight: bold;
+  color: #99d930;
 }
 
 .size {
@@ -91,4 +95,23 @@ a:hover {
 .about-container {
   background-color: whitesmoke;
   padding: 100px 200px;
+}
+
+.btn,
+.btn:hover {
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.btn {
+  color: #252525;
+  background-color: #99d930;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #252525;
 }
