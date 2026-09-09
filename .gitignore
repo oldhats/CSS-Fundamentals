@@ -1,0 +1,37 @@
+# ==========================================
+# 1. System & OS Specific Files (Optional - see Global note)
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 2. Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+
+# ==========================================
+# 3. Dependencies & Package Managers
+# ==========================================
+node_modules/
+/vendor/
+.pnp/
+
+# ==========================================
+# 4. Build Artifacts, Output, & Caches
+# ==========================================
+dist/
+build/
+out/
+*.pyc
+*.log
+
+# ==========================================
+# 5. IDE & Editor Personal Configurations
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*

@@ -1,0 +1,55 @@
+/* layout */
+.body {
+  margin: 0px;
+}
+
+.body-container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto 120px;
+}
+
+.div-box {
+  width: 570px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+/*  */
+
+/* styling */
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.heavy-weight {
+  font-weight: 900;
+}
+
+body {
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.small {
+  font-size: 16px;
+}
